@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="dialog_alert">برنامه برای اینکه به درستی کار بکند نیاز دارد تا به گالری شما دسترسی داشته باشد</string>
+    <string name="title_activity_sample_navigation">SampleNavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="intro_first">در بازی زندگی
+گاهی پیروز می شویم
+گاهی شکست می خوریم
+در هر دو حالت، ما باید به بازی ادامه دهیم</string>
+</resources>

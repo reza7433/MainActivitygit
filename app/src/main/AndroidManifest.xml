@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntroActivity"></activity>
+        <activity android:name=".CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServerActivity"></activity>
+        <activity
+            android:name=".StudentsViewHolder.MainActivity"
+            android:label="@string/title_activity_sample_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MaterialActivity" />
+        <activity android:name=".BroadCastActivity" />
+        <activity android:name=".PermisionActivity" />
+        <activity android:name=".mainactivity.ThreadActivity" />
+        <activity android:name=".TabLayoutActivity" />
+        <activity android:name=".ActivityFragment" />
+        <activity android:name=".ActivityForResult" />
+        <activity android:name=".mainactivity.DetailActivity" />
+        <activity android:name=".StudentsViewHolder.SqliteActivity" />
+        <activity android:name=".StudentsViewHolder.RecyclerActivity" />
+        <activity android:name=".AnimationActivity" />
+
+        <receiver android:name=".SampleBroadcast">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
